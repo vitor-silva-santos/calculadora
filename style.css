@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+body {
+    background-color: #252525;
+}
+
+/* SCROLL */
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #166569 #252525;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    height: 7px;
+    width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #252525;
+    border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #166569;
+    border-radius: 20px;
+    border: 0px solid #252525;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #2a4b4d;
+}
+
+/* END SCROLL */
+
+/* FONT */
+@font-face {
+    font-family: fontNumero;
+    src: url('./font/digital-7.ttf');
+}
+/* END FONT */
+
+.container {
+    background-color: #1B1B1B;
+    display: inline-block;
+    border-radius: 15px;
+    max-width: 230px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resultado {
+    background-color: #333333;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#historico,
+#result {
+    color: white;
+    background-color: #4E4E4E;
+    font-family: "fontNumero", sans-serif;
+    text-align: end;
+    letter-spacing: 1px;
+}
+
+#historico {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: .7em;
+    padding: 0px 10px;
+    
+}
+
+#result {  
+    padding: 7px 15px;
+    height: 45px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.5em;
+    overflow-y: hidden;
+}
+
+.tabela-botoes {
+    padding: 10px;
+}
+
+.tabela-botoes button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #646464;
+    color: white;
+    cursor: pointer;
+}
+
+.tabela-botoes button:hover {
+    opacity: 0.7;
+    transform: scale(.98);
+    transition: .3s;
+}
+
+.tabela-botoes button:active {
+    opacity: 0.5;
+    transform: scale(.95);
+    transition: .1s;
+}
+
+#limpar {
+    background-color: #FD4645;
+}
+
+#calcular {
+    background-color: #F9931F;
+}
