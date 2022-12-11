@@ -11,4 +11,4 @@
   <li><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="logo-js"></li>
 </ul>
 
-<h2>Preview: <a href="">click here</a></h2>
+<h2>Preview: <a href="https://vitor-silva-santos.github.io/calculadora/">click here</a></h2>
